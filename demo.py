@@ -1,6 +1,6 @@
 import gradio as gr
 import os, sys
-file_folder = os.path.abspath(__file__)
+file_folder = os.path.dirname(os.path.abspath(__file__))
 from FCN8s_keras import FCN
 from PIL import Image
 import cv2
