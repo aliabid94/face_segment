@@ -1,5 +1,4 @@
 gradio
 opencv-python
 Pillow
-tensorflow==2.5.0
-keras-nightly==2.5.0.dev2021032900
+tensorflow==1.14.0
