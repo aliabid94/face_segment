@@ -13,6 +13,7 @@ if not os.path.exists(weights):
     file_id = "1IerDF2DQqmJWqyvxYZOICJT1eThnG8WR"
     download_file_from_google_drive(file_id, weights)
 
+print(">", weights, os.path.exists(weights))
 model1 = FCN()
 model1.load_weights(weights)
 
