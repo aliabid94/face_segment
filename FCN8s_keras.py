@@ -1,4 +1,4 @@
-from keras.models import Sequential, Model
+from tensorflow.keras.models import Sequential, Model
 from keras.layers import *
 from keras.activations import relu
 from keras.initializers import RandomNormal
